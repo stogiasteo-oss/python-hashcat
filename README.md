@@ -35,19 +35,6 @@ You can use a wordlists from *python-hashcat/Wordlists/**
 
 *Make sure the file you downloaded is extracted and placed in the same directory as the script.
 
----
-
-## Usage
-
-```bash
-python python-hashcat-main.py <hash> <wordlist>
-```
-
-### Example:
-
-```bash
-python python-hashcat-main.py 5f4dcc3b5aa765d61d8327deb882cf99 rockyou.txt
-```
 
 ---
 
