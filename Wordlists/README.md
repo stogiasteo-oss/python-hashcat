@@ -26,18 +26,20 @@ Hashcat takes each entry and:
 
 Most real-world passwords are not random. They often come from:
 
--Common passwords (“123456”)
--Keyboard patterns (“qwerty”)
--Names, hobbies, or words from dictionaries
--Leaked password databases
+- Common passwords (“123456”)
+- Keyboard patterns (“qwerty”)
+- Names, hobbies, or words from dictionaries
+- Leaked password databases
 
 Wordlists exploit this predictability to reduce search space.
 
 Types of wordlists:
--Basic dictionaries: simple common words
--Leaked lists: real passwords from past breaches (very common in security testing)
--Custom wordlists: made for a specific target (names, birthdays, etc.)
--Hybrid use (in tools like Hashcat): wordlist + rules to mutate words (e.g., password → Password123!)
--Important concept
+- Basic dictionaries: simple common words
+- Leaked lists: real passwords from past breaches (very common in security testing)
+- Custom wordlists: made for a specific target (names, birthdays, etc.)
+- Hybrid use (in tools like Hashcat): wordlist + rules to mutate words (e.g., password → Password123!)
+- Important concept
 
 **Without wordlists, password cracking would be mostly brute force (trying everything), which is extremely slow. Wordlists make it smarter guessing instead of blind guessing.**
+
+Find out more in https://www.kali.org/tools/wordlists
